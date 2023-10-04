@@ -1,0 +1,36 @@
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+
+}
+.hero-img h1{
+    font-size: 2.4rem;
+    padding: 5rem 0 1rem;
+   
+  
+}
+
+.hero-img p {
+    font-size: 1.4rem;
+    text-align:justify;
+    
+   
+}
+@media screen and(max-width:640px) {
+    
+
+.hero-img h1{ 
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+
+}

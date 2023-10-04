@@ -1,0 +1,73 @@
+/* Footer container */
+.footer {
+  color: #fff;
+  padding: 2rem 0;
+  position: absolute;
+  width: 100%;
+ 
+
+}
+
+/* Inner container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Left section */
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Location */
+.location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.location p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+/* Phone and Email */
+.phone,
+.email {
+  margin-bottom: 1rem;
+}
+
+/* Right section */
+.right {
+  text-align: center;
+}
+
+.right h4 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Social media icons */
+.social {
+  margin-top: 1rem;
+}
+
+/* Style individual social icons */
+.social svg {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social svg:hover {
+  color: #007bff; /* Change the color on hover */
+}
+
+/* Add spacing for content */
+.main-content {
+  padding-bottom: 100px; /* Adjust this value based on your footer's height */
+}

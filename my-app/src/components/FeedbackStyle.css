@@ -1,0 +1,48 @@
+/* Import the Caveat font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+/* Apply the Caveat font to the entire document */
+.table-container {
+  padding: 16rem; /* Add margin to create space below the navbar */
+}
+
+.App {
+  height: 100vh;
+  padding: 2rem;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  background-color:gray;
+  color: white; /* Set font color to white */
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+
+.delete-btn {
+  width: 50px;
+  height: 26px;
+  background-color: #f00;
+}
+
+
+
+
+
+
+
+
+
